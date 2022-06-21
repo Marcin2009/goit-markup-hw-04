@@ -421,7 +421,10 @@ ul {
 .footer-contact-link:focus {
   color: #2196f3;
 }
-
+.footer-menu-nav .container {
+  display: flex;
+  align-items: center;
+}
 .footer-social-icon-title {
   font-family: "Roboto";
   font-style: normal;
@@ -430,37 +433,44 @@ ul {
   line-height: 1.4px;
   letter-spacing: 0.03em;
   color: #ffffff;
-  display: flex;
-  margin-left: 171px;
-  padding: 20px;
-  
 }
-
 
 .footer-social-icon-list {
   display: flex;
-  margin-left: 70px;
-  
+  padding-top: 20px;
 }
+
+.footer-social-icon-item {
+  margin-right: 10px;
+}
+
 .footer-social-link {
   display: flex;
-  width: 44px;
-  height: 44px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
   fill: var(--studio-bottom-color);
   background: rgba(255, 255, 255, 0.1);
-  margin-left: 110px;
+  padding: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 44px;
+  height: 44px;
+  
 }
-.footer-social-icon {
-  width: 20px;
-  height: 20px;
+
+.footer-social {
+  margin-left: 70px;
+  justify-content: center;
+  margin-bottom: 10px;
 }
+
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--link-color-hover);
 }
+
+
+
 /* portfolio.html */
 
 .portfolio-projects-btn {

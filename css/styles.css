@@ -79,6 +79,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  margin-right: 40px;
 }
 
 .header {
@@ -113,9 +114,7 @@ img {
   display: flex;
   margin-left: auto;
 }
-.header-contact-link {
-  margin-right: 50px;
-}
+
 
 .header-nav-item:not(:last-child) {
   margin-right: 46px;

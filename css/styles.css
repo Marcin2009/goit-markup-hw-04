@@ -209,11 +209,9 @@ ul {
 }
 
 .feature-icon {
-  max-width: 170px;
-  height: 120px;
   background: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .feature-header {
   font-family: "Roboto";
@@ -239,8 +237,9 @@ ul {
 }
 .feature-item {
   margin-right: 30px;
-  
+  max-width: 270px;
 }
+
 .we-do-title,
 .our-team-title {
   font-family: "Roboto";
@@ -424,7 +423,7 @@ ul {
 .footer-menu-nav .container {
   display: flex;
   align-items: center;
-}
+} 
 .footer-social-icon-title {
   font-family: "Roboto";
   font-style: normal;
